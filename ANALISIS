@@ -1,0 +1,14 @@
+CLASS A
+Penguat kelas A emitor umum dirancang untuk meningkatkan tegangan keluaran dari sinyal masukan yang lemah, yang biasanya hanya beberapa milivolt. Ini sering digunakan sebagai "penguat sinyal kecil", seperti yang dijelaskan dalam tutorial sebelumnya. Sementara itu, power amplifier, yang dikenal sebagai "penguat sinyal besar", bertujuan untuk mengalirkan daya ke beban, yang merupakan hasil dari tegangan dan arus. Meskipun power amplifier pada dasarnya juga meningkatkan tegangan, resistansi beban yang terhubung ke outputnya relatif rendah.
+Pada amplifier kelas A, kita dapat melihat perbedaan gelombang di tiap saluran pada osiloskop. Gelombang input yang ditampilkan tidak jauh lebih besar dari gelombang output, yang sesuai dengan tujuan amplifier kelas A untuk memperkuat sinyal output. Perbandingan tegangan sebelum dan sesudah transistor tampaknya sama jika diamati pada osiloskop.
+
+CLASS B
+Rangkaian kelas B terdiri dari Tegangan input, kapasitor, resistor, dan transistor, yang dirancang untuk bekerja pada frekuensi audio. Dalam rangkaian ini, arus beban dibagi antara dua transistor daya, dimana arus menurun pada satu transistor dan meningkat pada transistor lainnya sepanjang siklus sinyal, sehingga mengurangi tegangan dan arus keluaran menjadi nol. Dampaknya adalah kedua bagian gelombang keluaran berayun dari nol hingga dua kali arus diam, mengurangi disipasi. Ini menghasilkan peningkatan efisiensi amplifier menjadi sekitar 70%.
+Dalam rangkaian kelas B, terlihat bahwa hasil input pada channel A dan hasil output pada channel B berbeda. Gelombang output yang dihasilkan cenderung lebih mengerucut. Pada tegangan sebelum dan sesudah transistor, terlihat bahwa gelombang yang dihasilkan hampir sama dengan gelombang input dan output. Gelombang input hampir identik dengan gelombang sebelum transistor, sementara gelombang output hampir sama dengan gelombang setelah transistor.
+
+CLASS AB
+Penguat kelas AB, yang merupakan gabungan antara penguat kelas A dan kelas B, digunakan untuk mengatasi distorsi cross-over pada penguat kelas B. Tujuannya adalah untuk mengatasi kelemahan efisiensi rendah pada amplifier kelas A dan distorsi pada amplifier kelas B, sambil memanfaatkan keunggulan keduanya. Rangkaian menggunakan kapasitor dan resistor generik, serta transistor model NPN 2N3055 dan PNP MPS6562, yang terhubung dengan baterai 9 V.
+Pada osiloskop, dapat diamati bahwa gelombang input, gelombang output, gelombang sebelum transistor, dan gelombang setelah transistor memiliki bentuk yang serupa. Dengan demikian, gelombang pada channel A, B, C, dan D dapat dianggap sama.
+
+
+
